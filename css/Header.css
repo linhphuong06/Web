@@ -23,7 +23,6 @@ header .header__menu ul{
    list-style-type: none;
    color: #fff;
 }
-
 header .header__nav{
     width: 100vw;
     display: flex; 
@@ -108,7 +107,6 @@ header .list__img img{
 }
 .header__menu .menu li:not(:first-child) ul li,
 .header__menu .menu li:not(:last-child) ul li
-
 {
    padding-left: 3rem;
    padding-top:2rem;
