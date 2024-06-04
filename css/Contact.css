@@ -38,6 +38,7 @@
 .wrapper .mxh .list__icon i{
     font-size: 2.5rem;
     color: #505573;
+    cursor: pointer;
 }
 .address-mxh .wrapper .mxh div:first-child{
     display: flex;
