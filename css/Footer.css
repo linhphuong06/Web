@@ -1,4 +1,6 @@
-
+p,h3,h4{
+    font-family: "Quicksand",sans-serif;
+}
 footer{
     background-color: #505573;
 }
@@ -8,7 +10,6 @@ footer .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 footer p {
     font-family: 'Arial', sans-serif;

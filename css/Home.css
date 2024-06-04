@@ -85,8 +85,11 @@ main .projects .list__img img:hover{
     translate: 0 -2rem;
 }
 main .projects .list__img p{
+    color: #5e5355;
     margin-top: 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4.2rem;
 }
 
 
@@ -94,6 +97,7 @@ main .who{
    background-color: #505573;
    padding: 5rem 16rem;
    color: #fff;
+   
 }
 main .who p:first-child{
     font-size: 4.5rem;
@@ -107,6 +111,7 @@ main .who .wrapper{
     display: flex;
     gap: 2rem;
     margin-bottom: 7rem;
+    color:#f2f2f2;
 }
 main .who .wrapper iframe{
     border-radius: 1.5rem;
@@ -123,6 +128,7 @@ main .who p:last-child{
     font-size: 1.8rem;
     line-height: 2.8rem;
     text-align: center;
+    color: #f2f2f2;
 }
 
 
@@ -151,7 +157,7 @@ main .achievement .list__achievement li{
 main .achievement .list__achievement li p:first-child{
     color:#54595f;
     line-height: 4.7rem;
-    /* font-weight: 600; */
+    font-weight: 600;
     font-size: 1.9rem;
 }
 main .achievement .list__achievement li p:last-child{
@@ -183,6 +189,7 @@ main .vote p:not(:first-of-type){
     font-style: italic;
     font-size: 1.8rem;
     line-height: 2.8rem;
+    color: #1d1618;
 }
 main .vote p span{
     font-weight: bold;
