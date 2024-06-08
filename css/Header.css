@@ -175,4 +175,51 @@ body .message{
     
 }
 
+.text {
+    width: 100%;
+    position: absolute;
+    top: 100%; /* Đặt vị trí ban đầu ở dưới */
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        top: 100%; /* Bắt đầu ở dưới */
+    }
+    to {
+        opacity: 1;
+        top: 70%; /* Chạy dần lên vị trí mong muốn */
+    }
+}
+
+header.text {
+    width: auto;
+    height: max-content;
+    top: 50%;
+    position: relative;
+    display: block;
+    opacity: 0;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+header .text .h_1,
+header .text .p_1 {
+    color: #fff;
+    position: absolute;
+    font-family: "Patrick Hand", "Quicksand";
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+header .text .h_1 {
+    font-size: 4rem;
+    top: 0;
+}
+
+header .text .p_1 {
+    font-size: 3rem;
+    top: 4.5rem;
+    margin-top: 5rem;
+}
