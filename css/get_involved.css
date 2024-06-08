@@ -123,66 +123,44 @@ main>.content_invol>.top>.top_chil {
     color: #505573;
 }
 
-main > .content_invol > .bot {
-    width: 100%; /* Đặt chiều rộng là 100% */
-    height: 65%;
-}
 
 main>.content_invol>.top p{
     color: #6d6868;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
+main>.content_invol>.bot{
+    width: 100%;
+    height: 65%;
+}
 
 main>.content_invol>.bot>.bot_chil{
     width: 100%;
     height: 50%;
     display: flex;
+    flex-direction: column;
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_img{
+main>.content_invol>.bot>.bot_chil>.bot_chil_1{
     width: 35%;
     height: 100%;
+    display: flex;
     position: relative;
     display: inline-block; 
-    
+    flex-direction: column;
+    display: block;
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_img p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Đưa phần tử vào giữa theo cả hai trục */
-    color: white;
-    text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-size: 2.5rem;
-}
-
-main>.content_invol>.bot>.bot_chil>.bot_img> .color_over{
-    width: 100%;
-    height: 100%;
-    opacity: 0; /* Ẩn văn bản */
-    transition: opacity 0.5s; /* Thêm hiệu ứng chuyển đổi */
-}
-
-#color_over{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(219, 122, 228, 0.5);
-}
-
-main>.content_invol>.bot>.bot_chil>.bot_img:hover{
-    background-color: rgba(219, 122, 228, 0.5);
-}
-main > .content_invol > .bot > .bot_chil > .bot_img:hover p {
-    opacity: 1; /* Hiển thị văn bản khi hover */
-}
-
-
-main>.content_invol>.bot>.bot_chil>.bot_img img{
+main>.content_invol>.bot>.bot_chil>.bot_chil_1 img{
     width: 100%;
     height: 100%;
     border-radius: 8px;
+}
+
+main>.content_invol>.bot>.bot_chil>.bot_chil_1 h2{
+    color: #464242;
+    font-size: 2.4rem;
+    font-weight: 500;
+    position: absolute;
 }
