@@ -8,6 +8,9 @@
 .des, .text{
     font-family: 'LXGW WenKai Mono TC', monospace;
 }
+.des{
+    margin-bottom: 50px;
+}
 #theme1 img, #theme2 img, #theme5 img{
     object-fit: cover;
     overflow: hidden;

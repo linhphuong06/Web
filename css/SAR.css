@@ -8,6 +8,9 @@
 .des, .text{
     font-family: 'LXGW WenKai Mono TC', monospace;
 }
+.des{
+    margin-bottom: 50px;
+}
 main .content{
     padding-top: 10rem;
     padding-bottom: 5rem;
