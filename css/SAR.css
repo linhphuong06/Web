@@ -1,0 +1,240 @@
+.slogan{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 50%;
+    margin-left: 10%;
+}
+.des, .text{
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+main .content{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    padding-left: 33.5rem;
+    padding-right: 33.5rem;
+    background-color: #F7FAFD;
+    height: 350px;
+}
+main .content *{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main .content h3{
+    font-size: 3.1rem;
+    font-weight: 500;
+    color: #5E5355;
+    letter-spacing: 0.8px;
+}
+.fa-paw{
+    font-size: 6rem;
+    display: block;
+    color: #505573;
+}
+main .content p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.8px;
+}
+main .content .btn  div, main .more-i .i-dest .btn div, main .story .s-container .s-text .btn div, main .choice .btn div{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.7rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+main .content .btn  div:hover, main .more-i .i-dest .btn  div:hover, main .story .s-container .s-text .btn div:hover, main .choice .btn div:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+main .content .btn .btn1, main .story .s-container .s-text .btn .btn1,  main .choice .btn .btn1{
+    background-color: #505573;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+
+}
+#theme3 img, #theme4 img{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    transition: all 3s ease;
+}
+#theme3 img:hover, #theme4 img:hover{
+    transform: scale(1.1);
+}
+main .more-i{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+}
+main .more-i .i-img img{
+    margin: 3rem 0 3rem 15rem;
+    width: 550px;
+    height: 770px;
+    border-radius: 2rem;
+
+}
+main .i-dest{
+    margin-left: 1rem;
+}
+main .i-dest .i-heading{
+    padding: 6rem 0 3rem 15rem; 
+    font-size: 5rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+main .i-dest .i-container{
+    display: block;
+    width: 500px;
+    margin-left: 5rem;
+    padding: 5rem 0 3rem 12rem;
+    background-color: #F7FAFD;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+main .i-dest .i-container p{
+    padding-bottom: 1rem;
+}
+main .more-i .i-dest .btn .btn1{
+    background-color: #7cbc97;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+main .more-i .i-dest .btn{
+    display: flex;
+    margin: 3rem 0 3rem 10rem;
+}
+main .more-i .i-dest .btn .btn1{
+    width: 20rem;
+    text-align: center;
+}
+main .i-foot #t1{ 
+    padding: 0rem 0 3rem 25rem;
+    font-size: 1.9rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+    font-weight: bold;
+}
+main .i-foot #t2{
+    padding: 0rem 0 3rem 6rem;
+        display: block;
+        width: 600px;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+main section .story .s-heading{
+    padding: 3rem 0  3rem 0;
+    margin-left: 35rem; 
+    font-size: 5rem;
+    width: 80rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+    text-align: center;
+    white-space: wrap;
+}
+main section .story .s-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 3rem 0 3rem 0;
+}
+main section .story .s-container .s-text p{
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 2.8rem;
+    width: 50rem;
+    font-weight: 400;
+    padding-top: 4rem;
+}
+main section .story .s-container .s-img img{
+    width:60rem;
+    height: 320px;
+    border-radius: 2rem;
+}
+main section .story .s-container .s-text .btn{
+    display: flex;
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+main section .story .s-container .s-text .btn .btn1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+main section .story-2{
+    display: flex;
+    margin-top: 3rem;
+}
+main section .story-2 .s-img img{
+    margin: 3rem 0 3rem 15rem;
+    width: 550px;
+    height: 770px;
+    border-radius: 2rem;
+}
+main section .story-2 .s-text p{
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 2.8rem;
+    width: 50rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    white-space: wrap;
+}
+main section .story-2 .s-text #t1{
+    padding-top: 8rem;
+}
+main section .choice{
+    padding: 5rem 0 5rem 10rem;
+    background-color: #f0f0f0;
+}
+main section .dest{
+    margin-left: 35rem;
+    text-align: center;
+    font-size: 3rem;
+    width: 70rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+section .dest a{
+    color: #7cbc97;
+}
+main section .choice .btn{
+    display: flex;
+    padding-top: 2rem;
+    padding-right: 10rem;
+    justify-content: center;
+    margin-left: 5rem;
+}
+main .choice .btn .btn1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 30rem;
+    text-align: center;
+}
+section .imgcat{
+    display: flex;
+    width: 265px;
+    height: 371px;
+    margin: 4rem 0 4rem 23rem;
+
+}
+section .imgcat img{
+    padding: 1rem;
+    border-radius: 2.9rem;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    transform-origin: center center;
+}
+section .imgcat img:hover{
+    transform: scale(1.1);
+
+}
+main .comment{
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,195 @@
+.slogan{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 50%;
+    margin-left: 10%;
+}
+.des, .text{
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+#theme1 img, #theme2 img, #theme5 img{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    transition: all 3s ease;
+}
+#theme1 img:hover, #theme2 img:hover, #theme5 img:hover{
+    transform: scale(1.1);
+}
+main .content{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    padding-left: 33.5rem;
+    padding-right: 33.5rem;
+    background-color: #F7FAFD;
+    height: 300px;
+}
+main .content *{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main .content h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #5E5355;
+    letter-spacing: 0.8px;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+.fa-paw{
+    font-size: 6rem;
+    display: block;
+    color: #505573;
+}
+main section .story {
+    display: flex;
+}
+main section .story .s-img img{
+    margin: 3rem 0 3rem 15rem;
+    width: 550px;
+    height: 461px;
+    border-radius: 2rem;
+}
+main section .story .s-text h3{
+    padding: 5rem 0rem 0rem 10rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+main section .story .s-text p{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 2.8rem;
+    width: 60rem;
+    font-weight: 400;
+    padding: 2rem 0rem 0rem 10rem;
+}
+main section .story .s-text .btn{
+    padding: 3rem 0 0 27.5rem;
+}
+main section .story .s-text .btn div, main section .apply .a-text .btn div, main section .another-choice .btn div{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.7rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+main section .story .s-text .btn div:hover, main section .apply .a-text .btn div:hover, main section .another-choice .btn div:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+main section .story .s-text .btn .btn1{
+    background-color: #7cbc97;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+main section .info h3{
+    padding: 5rem 0rem 0rem 53rem;
+    font-size: 2.5rem;
+
+}
+main section .info #t1{
+    padding: 2rem 0rem 5rem 45rem;
+    font-size: 2rem;
+}
+main section .info p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 2.8rem;
+    width: 100rem;
+    font-weight: 400;
+    padding: 5rem 0rem 5rem 45rem;
+}
+main section .list_img1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22rem;
+    width: 1060px;
+}
+main section .list_img1 img{
+    padding: 1rem;
+    width: 265px;
+    height: 345px;
+    border-radius: 2rem;
+    transition: 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+main section .list_img1 img:hover, main .list-dog img:hover, main .list-cat img:hover{
+    transform: scale(1.1);
+}
+main .list-dog img, main .list-cat img{
+    transition: 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+main section .apply{
+    background-image: url(../images/adopt-dual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 439px;
+}
+main section .apply .a-text {
+    padding-left: 75rem;
+    padding-top: 20rem;
+    text-align: center;
+}
+main section .apply .a-text h2{
+    padding-bottom:2rem;
+    font-size: 3.5rem;
+    color: #5e5355;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+main section .apply .a-text .btn .btn1{
+    background-color: #4f5573;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+main .list-cat, .list-dog{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+main .list-cat img, main .list-dog img{
+    width: 550px;
+    height: 461px;
+    padding: 20px;
+    border-radius: 3rem;
+}
+#ct1, #ct2{
+    background-color: #fff;
+}
+main section .mota{
+    text-align: center;
+    padding: 6rem 30rem 5rem 30rem;
+    font-size: 2.0rem;
+}
+main section .another-choice{
+    background-color: #4f5573;
+    padding: 5rem 30rem 5rem 30rem;
+    color: white;
+    text-align: center;
+}
+main section .another-choice h2{
+    font-size: 4rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+    padding-bottom: 2rem;
+}
+main section .another-choice p{
+    font-size: 2rem;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+    padding-bottom: 2rem;
+}
+main section .another-choice .btn .btn1{
+    background-color: #7cbc97;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
