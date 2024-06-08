@@ -130,6 +130,13 @@ main>.content_invol>.top p{
     font-weight: 400;
 }
 
+
+
+
+
+
+
+/* bot */
 main>.content_invol>.bot{
     width: 100%;
     height: 65%;
@@ -152,15 +159,47 @@ main>.content_invol>.bot>.bot_chil>.bot_chil_1{
     display: block;
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_chil_1 img{
+
+
+
+
+main>.content_invol>.bot>.bot_chil>.bot_chil_1> .before{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+main> .content_invol>.bot>.bot_chil>.bot_chil_1> .before img{
     width: 100%;
     height: 100%;
     border-radius: 8px;
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_chil_1 h2{
-    color: #464242;
-    font-size: 2.4rem;
-    font-weight: 500;
+main>.content_invol>.bot>.bot_chil>.bot_chil_1>.before h1{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Đưa phần tử vào giữa theo cả hai trục */
+    color: white;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.5rem;
+}
+
+main>.content_invol>.bot>.bot_chil>.bot_chil_1>.after{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #7CBC97;
+}
+
+main>.content_invol>.bot>.bot_chil>.bot_chil_1>.after p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Đưa phần tử vào giữa theo cả hai trục */
+    color: white;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.5rem;
 }
