@@ -1,0 +1,217 @@
+main .comment{
+    padding: 4rem 17rem;
+    color: #F6F6F6;
+}
+main .comment img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+main .comment p{
+    font-size: 2.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: #363030;
+}
+main .comment .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+main .comment .btn{
+    padding: 1.5rem 1.5rem;
+    background-color: #7CBC97;
+    font-size: 1.8rem;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
+}
+main .comment .btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    animation: pulse 0.5s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+    50% {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/* top */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main >.content_rec{
+    /* padding-top: 8.8rem;
+    padding-bottom: 8rem;
+    padding-left: 30rem;
+    padding-right: 30rem; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+main >.content_rec *{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.list__img {
+    padding: 0;
+    text-align: center; /* Đảm bảo hình ảnh được căn giữa */
+}
+
+.list__img img {
+    margin: 0 auto; /* Đưa hình ảnh vào giữa theo chiều ngang */
+    display: block; /* Đảm bảo hình ảnh là một khối (block element) */
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của phần tử cha */
+    height: auto;
+}
+
+main>.content_rec>.top{
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #f3eded;
+    flex-direction: column; /* Sắp xếp các phần tử con theo chiều dọc */
+    justify-content: center; /* Căn giữa theo trục dọc */
+    align-items: center; /* Căn giữa theo trục ngang */
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+main>.content_rec>.top>.top_chil {
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+     /* Căn giữa nội dung ngang trên màn hình */
+}
+
+/* Định nghĩa chung cho h1 trong cả top và bot */
+.top_chil h1,
+.bot_chil h1 {
+    padding-top: 4.4rem;
+    color: #464242;
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-align: center; /* Căn giữa văn bản */
+}
+
+.fas.fa-paw{
+    font-size: 6rem;
+    display: block;
+    color: #505573;
+    padding-bottom: 4.4rem;
+}
+
+
+main>.content_rec>.top>.top_chil p{
+    color: #6d6868;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* bot */
+
+main>.content_rec>.bot{
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center; /* Căn giữa theo trục dọc */
+    align-items: center; /* Căn giữa theo trục ngang */
+    text-align: center;
+    padding-top: 8.8rem;
+    padding-bottom: 8rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    display: flex;
+}
+
+main>.content_rec>.bot>.bot_chil{
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-right: 16px;
+}
+
+main>.content_rec>.bot>.bot_chil:last-child{
+    margin-right: 0;
+}
+
+main>.content_rec>.bot>.bot_chil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+main>.content_rec>.bot>.bot_chil h2{
+    color: #464242;
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+main>.content_rec>.bot>.bot_chil p{
+    color: #6d6868;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    /* padding-top: 2.2rem; */
+    
+}
+
+main>.content_rec>.bot>.bot_chil .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+main>.content_rec>.bot>.bot_chil .btn{
+    width:fit-content;
+    height:fit-content;
+    padding: 1.5rem ;
+    background-color: #a3aaa7;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
+}
