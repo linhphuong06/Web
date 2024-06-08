@@ -101,6 +101,7 @@ header .list__img img{
     left: 0;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.25s linear;
 }
 .header__menu .menu li:hover ul{
     opacity: 1;
@@ -113,6 +114,7 @@ header .list__img img{
    padding-top:2rem;
    padding-bottom: 2rem;
    background-color:#fff;
+   transition: all 0.25s ease;
 
 }
 .header__menu .menu li:not(:first-child) ul li:hover,
