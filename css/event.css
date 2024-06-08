@@ -147,10 +147,10 @@ main>.content_rec>.top>.top_chil p{
 main>.content_rec>.bot{
     width: 100%;
     height: 65%;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     align-content: center;
-    justify-content: center; /* Căn giữa theo trục dọc */
+    /* justify-content: center; Căn giữa theo trục dọc */
     align-items: center; /* Căn giữa theo trục ngang */
     text-align: center;
     padding-top: 8.8rem;
@@ -163,7 +163,7 @@ main>.content_rec>.bot{
 main>.content_rec>.bot>.bot_chil{
     width: 35%;
     height: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     align-content: center;
     text-align: center;

@@ -49,6 +49,7 @@ main .comment .btn:hover{
     }
 }
 
+
 body{
     margin: 0;
     padding: 0;
@@ -136,70 +137,80 @@ main>.content_invol>.top p{
 
 
 
-/* bot */
-main>.content_invol>.bot{
+.donation {
     width: 100%;
     height: 65%;
+    background-color: #3f1414;
 }
 
-main>.content_invol>.bot>.bot_chil{
+.first-line {
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column;
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_chil_1{
+
+
+.ima-donate {
+    background: url(../images/cat_care.jpg) ; /* Căn giữa ảnh và không lặp lại */
+    background-size:auto; /* Phóng to ảnh để bao phủ toàn bộ phần tử */
+    width: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều rộng của phần tử cha */
+    height: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều cao của phần tử cha */
+    position: relative;
+    border-radius: 20px; /* Bo tròn các góc */
+}
+
+.title-donate {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+
+.donate {
+    position: relative;
     width: 35%;
     height: 100%;
+    overflow: hidden; /* Đảm bảo không hiển thị phần thừa */
+    margin-right: 30px;
+    border-radius: 20px; /* Bo tròn các góc */
+}
+
+.box {
+    position: absolute;
+    width: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều rộng của phần tử cha */
+    height: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều cao của phần tử cha */
+    transition: opacity 1s; /* Chuyển đổi độ mờ mượt mà */
+    border-radius: 20px; /* Bo tròn các góc */
+}
+
+.infor-donate {
+    background-color: rgb(156, 63, 79);
+    color: white;
+    top: 100%;
+    opacity: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    position: relative;
-    display: inline-block; 
-    flex-direction: column;
-    display: block;
+    border-radius: 20px; /* Bo tròn các góc */
 }
 
-
-
-
-
-main>.content_invol>.bot>.bot_chil>.bot_chil_1> .before{
-    width: 100%;
-    height: 100%;
-    position: relative;
+@keyframes scrollUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
 }
 
-main> .content_invol>.bot>.bot_chil>.bot_chil_1> .before img{
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
+.donate:hover .infor-donate {
+    animation: scrollUp 1s forwards; /* Thêm hiệu ứng cuộn lên */
+    opacity: 1; /* Hiển thị hộp đỏ */
 }
 
-main>.content_invol>.bot>.bot_chil>.bot_chil_1>.before h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Đưa phần tử vào giữa theo cả hai trục */
-    color: white;
-    text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-size: 2.5rem;
-}
-
-main>.content_invol>.bot>.bot_chil>.bot_chil_1>.after{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-color: #7CBC97;
-}
-
-main>.content_invol>.bot>.bot_chil>.bot_chil_1>.after p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Đưa phần tử vào giữa theo cả hai trục */
-    color: white;
-    text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-size: 2.5rem;
-}
+/* .second-line {
+    display: flex;
+} */
