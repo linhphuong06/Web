@@ -49,7 +49,6 @@ main .comment .btn:hover{
     }
 }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -137,27 +136,25 @@ main>.content_invol>.top p{
 
 
 
+
 .donation {
     width: 100%;
-    height: 65%;
-    background-color: #3f1414;
+    height: auto;
 }
 
 .first-line {
     width: 100%;
-    height: 50%;
+    height: auto;
     display: flex;
 }
 
-
-
 .ima-donate {
-    background: url(../images/cat_care.jpg) ; /* Căn giữa ảnh và không lặp lại */
-    background-size:auto; /* Phóng to ảnh để bao phủ toàn bộ phần tử */
-    width: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều rộng của phần tử cha */
-    height: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều cao của phần tử cha */
+    background: white url(https://i.pinimg.com/236x/78/ed/92/78ed929b11f013fc092d39d84b8deced.jpg);
+    width: 100%; /* Điều chỉnh lại width để chiếm toàn bộ khung chứa */
+    height: 100%;
+    background-size: cover;
     position: relative;
-    border-radius: 20px; /* Bo tròn các góc */
+    border-radius: 20px;
 }
 
 .title-donate {
@@ -170,31 +167,32 @@ main>.content_invol>.top p{
 
 .donate {
     position: relative;
-    width: 35%;
-    height: 100%;
-    overflow: hidden; /* Đảm bảo không hiển thị phần thừa */
-    margin-right: 30px;
-    border-radius: 20px; /* Bo tròn các góc */
+    width: 30%; /* Chuyển width thành % để phù hợp với khung cha */
+    height: 0; /* Đặt height ban đầu là 0 để có tỷ lệ phần trăm chiều cao chính xác */
+    padding-bottom: 40%; /* Sử dụng padding-bottom để tạo tỷ lệ khung hình, có thể điều chỉnh theo nhu cầu */
+    overflow: hidden; /* Đảm bảo không hiển thị phần thừa của hộp */
+    margin-right: 2%; /* Điều chỉnh margin-right thành % */
 }
 
 .box {
     position: absolute;
-    width: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều rộng của phần tử cha */
-    height: 100%; /* Đảm bảo nó bao phủ toàn bộ chiều cao của phần tử cha */
+    width: 100%; /* Đặt width thành 100% của khung cha */
+    height: 100%; /* Đặt height thành 100% của khung cha */
     transition: opacity 1s; /* Chuyển đổi độ mờ mượt mà */
-    border-radius: 20px; /* Bo tròn các góc */
 }
 
 .infor-donate {
     background-color: rgb(156, 63, 79);
     color: white;
-    top: 100%;
+    top: 100%; 
     opacity: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 20px; /* Bo tròn các góc */
+    border-radius: 20px;
+    width: 100%; /* Đặt width thành 100% của khung cha */
+    height: 100%; /* Đặt height thành 100% của khung cha */
 }
 
 @keyframes scrollUp {
@@ -211,6 +209,11 @@ main>.content_invol>.top p{
     opacity: 1; /* Hiển thị hộp đỏ */
 }
 
-/* .second-line {
+.second-line {
     display: flex;
-} */
+}
+
+
+
+
+
