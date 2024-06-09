@@ -1,0 +1,49 @@
+#theme10 img ,#theme11 img{
+    object-fit: cover;
+    overflow: hidden;
+}
+.slogan {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 50%;
+    margin-left: 10%;
+}
+.des, .text {
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}
+.des {
+    margin-bottom: 50px;
+}
+.qqq{
+    margin: 3rem 0 3rem 3rem;
+    display: flex;
+}
+.qqq a img{
+    position: relative;
+    gap: 50px;
+    width: 700px;
+    height: auto;
+    border-radius: 8rem;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+.qqq div:hover a img, .qqq div:hover  p, .qqq div:hover p {
+    transform: scale(1.1);
+    z-index: 2;
+    opacity: 1;
+}
+.awdog, .awcat {
+    position: relative;
+}
+.awdog p, .awcat p {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 50%;
+    left: 10%;
+    margin-left: 10%;
+    z-index: 2;
+    opacity: 0;
+    font-family: 'LXGW WenKai Mono TC', monospace;
+}   
