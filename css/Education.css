@@ -1,0 +1,84 @@
+ul{
+    list-style-type: none;
+}
+main .content{
+    padding-top: 8.8rem;
+    padding-bottom: 8rem;
+    padding-left: 33.5rem;
+    padding-right: 33.5rem;
+}
+
+main .content *{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main .content h3{
+    font-size: 3.1rem;
+    font-weight: 500;
+    color: #5E5355;
+    letter-spacing: 0.8px;
+}
+.fa-paw{
+    font-size: 6rem;
+    display: block;
+    color: #505573;
+}
+
+
+main .content p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.8px;
+}
+
+main .content div .btn{
+    display: inline-block;
+    padding: 1.8rem 1rem;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    background-color: #505573;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.wrapper-youtube{
+    padding: 0 15.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrapper-youtube .youtube{
+    width: calc(50% - 1rem);
+    margin: 3rem 0;
+}
+
+.wrapper-youtube .youtube iframe{
+    width: 100%;
+}
+
+.wrapper-youtube .youtube h3{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    word-spacing: 0.5rem;
+    color: #7A7A7A;
+}
+
+.fa-file-lines{
+    color: #62CE70;
+    font-size: 5rem;
+}
+
+.wrapper-youtube .youtube ul{
+    margin: 2.5rem 0;
+}
+.wrapper-youtube .youtube li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.wrapper-youtube .youtube li a span{
+    font-weight: 200;
+}
