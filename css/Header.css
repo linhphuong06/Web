@@ -24,6 +24,9 @@ header .header__menu ul{
    list-style-type: none;
    color: #fff;
 }
+#home1 {
+    color: #fff;
+}
 header .header__nav{
     width: 100vw;
     display: flex; 
