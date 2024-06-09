@@ -1,0 +1,71 @@
+
+.first-line{
+    display: flex;
+    height: 335px;
+
+}
+.left {
+    overflow: hidden; /* Ẩn phần ảnh vượt ra khỏi khung chứa */
+    width: 926px; /* Đặt kích thước cho khung chứa */
+    height: 335px; /* Đặt kích thước cho khung chứa */
+    position: relative; /* Đảm bảo khung chứa có vị trí tương đối */
+}
+
+.left img {
+    width: 100%; /* Đặt chiều rộng ảnh bằng chiều rộng khung chứa */
+    height: 100%; /* Đặt chiều cao ảnh bằng chiều cao khung chứa */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.left:hover img {
+    transform: scale(1.2); /* Phóng to ảnh khi hover */
+}
+
+
+
+main > .images > .first-line{
+    padding: 0;
+    margin: 0;
+}
+.education{
+    
+    display: flex;
+}
+.chuviet{
+    text-align: center;
+    margin-top: 10px;
+}    
+.img-hover-effect {
+    transition: transform 0.3s ease;
+}
+
+/* Tạo hiệu ứng di chuyển lên trên khi di chuột vào ảnh có lớp img-hover-effect */
+.img-hover-effect:hover {
+    transform: translateY(-10px);
+}
+.thucday{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 100px 383px 100px 383px;
+}
+.viet{
+    width: 50%;
+    margin-right: 70px;
+}
+.anh{
+    width: 50%;
+    
+}
+button{
+    font-size: 17px;
+    font-family:Quicksand, sans-serif; 
+    background-color: #7CBC97; 
+    border-radius: 30px; 
+    width: 35%; 
+    height: 15%; 
+    color: white; 
+    border: none;
+    margin-top: 30px;
+}
+
