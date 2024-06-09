@@ -20,6 +20,12 @@ function loadHeader(){
                 if(page === "Blogs"){
                      img.src ="../../images/blog.jpg"
                 }
+                if(page === "Education"){
+                     img.src ="../../images/Education.jpeg"
+                }
+                if(page === "Team"){
+                     img.src ="../../images/Our-Team.jpg"
+                }
             }
             else{
                 console.log("error")
