@@ -75,6 +75,7 @@ main >.content_rec{
 main >.content_rec *{
     text-align: center;
     margin-bottom: 2rem;
+    
 }
 
 .list__img {
