@@ -1,5 +1,5 @@
 function loadHeader(){
-    fetch("Header.html")
+    fetch("../Header_Footer/Header.html")
         .then( response => response.text() )
         .then( data => {
             document.getElementById("Header").innerHTML = data
@@ -26,6 +26,29 @@ function loadHeader(){
                 if(page === "Team"){
                      img.src ="../../images/Our-Team.jpg"
                 }
+                if(page == "Education_Phuong"){
+                    img.src ="../../images/edu.jpg"
+                }
+                if(page == "event"){
+                    img.src ="../../images/event.jpg"
+                }
+                if(page == "get_involved"){
+                    img.src ="../../images/get_involed.jpg"
+                }
+                if(page == "help"){
+                    img.src ="../../images/help.jpg"
+                }
+                if(page == "partner"){
+                    img.src ="../../images/hoptac.jpeg"
+                }
+                if(page == "recruitmrnt"){
+                    img.src ="../../images/recruimrnt.jpeg"
+                }
+                if(page == "volunteer"){
+                    img.src ="../../images/volum.jpg"
+                }
+                
+                
             }
             else{
                 console.log("error")
@@ -36,7 +59,7 @@ function loadHeader(){
 }
 
 function loadFooter() {
-    fetch("Footer.html")
+    fetch("../Header_Footer/Footer.html")
         .then(response => response.text())
         .then(data => {
             const footerElement = document.getElementById("Footer");
