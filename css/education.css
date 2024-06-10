@@ -1,3 +1,6 @@
+ul{
+    list-style-type: none;
+}
 .images{
     width: 100%;
 }
@@ -32,14 +35,30 @@ main > .images > .first-line{
     margin: 0;
 }
 .education{
-    
-    display: flex;
+    padding: 0 16rem;
 }
-.chuviet{
-    text-align: center;
-    margin-top: 0.625rem;
+.education__content .list__img{
+    display: flex;
+    justify-content: space-between;
+}
+.education__content .list__img li img{
+    width: 26rem;
+    height: 17.5rem;
+    border-radius: 1rem;
+    transition: all .5s;
+}
+.education__content .list__img li img:hover{
+    /* margin-top: -2rem; */
+    translate: 0 -2rem;
 
-}    
+}
+.education__content .list__img li p{
+    color:#5e5355;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}  
 .img-hover-effect {
     transition: transform 0.3s ease;
 }
