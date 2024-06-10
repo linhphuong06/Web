@@ -135,7 +135,11 @@ main>.content_invol>.top p{
 
 
 
-
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
 
 .donation {
     width: 100%;
@@ -149,7 +153,7 @@ main>.content_invol>.top p{
 }
 
 .ima-donate {
-    background: white url(https://i.pinimg.com/236x/78/ed/92/78ed929b11f013fc092d39d84b8deced.jpg);
+    background: white url();
     width: 100%; /* Điều chỉnh lại width để chiếm toàn bộ khung chứa */
     height: 100%;
     background-size: cover;
@@ -163,6 +167,8 @@ main>.content_invol>.top p{
     bottom: 0;
     height: 50%;
     width: 100%;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
 }
 
 .donate {
@@ -191,6 +197,8 @@ main>.content_invol>.top p{
     align-items: center;
     display: flex;
     border-radius: 20px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
     width: 100%; /* Đặt width thành 100% của khung cha */
     height: 100%; /* Đặt height thành 100% của khung cha */
 }

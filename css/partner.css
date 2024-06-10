@@ -1,0 +1,296 @@
+.button{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.hover-button {
+    background-color: #7cbc97; /* Màu nền ban đầu */
+    color: white; /* Màu chữ ban đầu */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; /* Tạo hiệu ứng chuyển đổi mượt mà */
+    height: 50px;
+}
+.hover-button:hover {
+    background-color: rgb(58, 40, 88); /* Màu nền khi trỏ chuột vào */
+}   
+.first-line{
+    display: flex;
+    height: 335px;
+
+}
+.left {
+    overflow: hidden; /* Ẩn phần ảnh vượt ra khỏi khung chứa */
+    width: 926px; /* Đặt kích thước cho khung chứa */
+    height: 335px; /* Đặt kích thước cho khung chứa */
+    position: relative; /* Đảm bảo khung chứa có vị trí tương đối */
+}
+
+.left img {
+    width: 100%; /* Đặt chiều rộng ảnh bằng chiều rộng khung chứa */
+    height: 100%; /* Đặt chiều cao ảnh bằng chiều cao khung chứa */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.left:hover img {
+    transform: scale(1.2); /* Phóng to ảnh khi hover */
+}
+.right {
+    overflow: hidden; /* Ẩn phần ảnh vượt ra khỏi khung chứa */
+    width: 926px; /* Đặt kích thước cho khung chứa */
+    height: 335px; /* Đặt kích thước cho khung chứa */
+    position: relative; /* Đảm bảo khung chứa có vị trí tương đối */
+}
+
+.right img {
+    width: 100%; /* Đặt chiều rộng ảnh bằng chiều rộng khung chứa */
+    height: 100%; /* Đặt chiều cao ảnh bằng chiều cao khung chứa */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.right:hover img {
+    transform: scale(1.2); /* Phóng to ảnh khi hover */
+}
+.partner {
+    width: 100%;
+    height: auto;
+    padding: 30px 20%; 
+}
+
+.first {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.left-partner {
+    width: 48%; /* Chuyển width thành % để phù hợp với khung cha */
+    margin-right: 2%;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-partner {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+main .comment{
+    padding: 4rem 17rem;
+    color: #F6F6F6;
+}
+main .comment img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+main .comment p{
+    font-size: 2.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: #363030;
+}
+main .comment .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+main .comment .btn{
+    padding: 1.5rem 1.5rem;
+    background-color: #7CBC97;
+    font-size: 1.8rem;
+    border-radius: 3rem;
+    text-align: center;
+    cursor: pointer;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); */
+}
+main .comment .btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    animation: pulse 0.5s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+    50% {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main >.content *{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.list__img {
+    padding: 0;
+    text-align: center; /* Đảm bảo hình ảnh được căn giữa */
+}
+
+.list__img img {
+    margin: 0 auto; /* Đưa hình ảnh vào giữa theo chiều ngang */
+    display: block; /* Đảm bảo hình ảnh là một khối (block element) */
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của phần tử cha */
+    height: auto;
+}
+
+main>.top{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.top_chil h1 {
+    color: #464242;
+    font-size: 3.2rem; /* Đặt kích thước font lớn hơn */
+    font-weight: 500;
+}
+
+.fas.fa-paw{
+    font-size: 6rem;
+    display: block;
+    color: #505573;
+}
+
+
+main>.top p{
+    color: #6d6868;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+main>.bot{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:white;
+}
+
+.bot .bot_chil{
+    width: 70%;
+    height:max-content;
+   
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: #544b99 dotted;
+    border-bottom-width: 5px;
+    
+    
+    
+}
+
+.bot .bot_chil:last-child{
+    border-bottom: none;
+}
+
+
+.bot_chil_1{
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 2rem;
+}
+
+main>.bot>.bot_chil>.bot_chil_1:last-child{
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+main>.bot>.bot_chil>.bot_chil_1>.bot_1_top{
+    width: 100%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.bot_1_top button{
+    width:fit-content;
+    height: 50%;
+    background-color: #544b99; /* Màu nền ban đầu */
+    color: white; /* Màu chữ ban đầu */
+    padding: 20px 10px;
+    border: none;
+    border-radius: 20rem;
+    cursor: pointer;
+    font-size: 16px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.bot_1_top img{
+    height:30%;
+    width:30%;
+}
+
+.bot_1_bot{
+    width: 100%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bot_1_bot h1{
+    font-family: "Poppins", sans-serif;
+    color: #464242;
+    font-size: 3rem; /* Đặt kích thước font lớn hơn */
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.bot_1_bot p{
+    font-family: "Quicksand", sans-serif;
+    line-height: 3rem; 
+    color: #6d6868;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
