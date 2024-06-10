@@ -8,6 +8,15 @@ html{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+#Header-img{
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    transition: all 3s ease;
+}
+#Header-img:hover{
+    transform: scale(1.1);
+}
 header{
     position: relative;
     width: 100vw;
