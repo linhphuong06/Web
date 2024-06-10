@@ -26,26 +26,47 @@ function loadHeader(){
                 if(page === "Team"){
                      img.src ="../../images/Our-Team.jpg"
                 }
-                if(page == "Education_Phuong"){
+                if(page === "Education_Phuong"){
                     img.src ="../../images/edu.jpg"
                 }
-                if(page == "event"){
+                if(page === "event"){
                     img.src ="../../images/event.jpg"
                 }
-                if(page == "get_involved"){
+                if(page === "get_involved"){
                     img.src ="../../images/get_involed.jpg"
                 }
-                if(page == "help"){
+                if(page === "help"){
                     img.src ="../../images/help.jpg"
                 }
-                if(page == "partner"){
+                if(page === "partner"){
                     img.src ="../../images/hoptac.jpeg"
                 }
-                if(page == "recruitmrnt"){
+                if(page === "recruitmrnt"){
                     img.src ="../../images/recruimrnt.jpeg"
                 }
-                if(page == "volunteer"){
+                if(page === "volunteer"){
                     img.src ="../../images/volum.jpg"
+                }
+                if(page === "Adopt"){
+                    img.src ="../../images/BE-A-HERO-FOR-AN-ANIMAL-IN-NEED-Banniere-Canva.png"
+                }
+                if(page === "Adopt2"){
+                    img.src ="../../images/themecat.jpg"
+                }
+                if(page === "Adopt3"){
+                    img.src ="../../images/themedog.jpg"
+                }
+                if(page === "awcat"){
+                    img.src ="../../images/awtheme.jpg"
+                }
+                if(page === "awdog"){
+                    img.src ="../../images/awdog.jpg"
+                }
+                if(page === "Sar-lili"){
+                    img.src ="../../images/Paws-Tilly.jpeg"
+                }
+                if(page === "Sar-poppy"){
+                    img.src ="../../images/poppy.jpg"
                 }
                 
                 

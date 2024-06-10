@@ -11,18 +11,19 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-  <link rel="stylesheet" href="../css/aw.css">
-  <link rel="stylesheet" href="../css/awcat.css">
-  <link rel="stylesheet" href="../css/Header.css">
-  <link rel="stylesheet" href="../css/Footer.css">
-  <link rel="stylesheet" href="../css/Home.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/aw.css">
+    <link rel="stylesheet" href="../../css/awcat.css">
+    <link rel="stylesheet" href="../../css/Header.css">
+    <link rel="stylesheet" href="../../css/Footer.css">
+    <link rel="stylesheet" href="../../css/Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet">
+    <script src="../../js/LoadHeaderFooter.js"></script>
 </head>
-<body>
-    <header>
+<body data-page="awdog">
+    <!-- <header>
         <div class="header__nav">
             <div class="logo">
                 <img src="../images/logo.png" alt="">
@@ -100,7 +101,8 @@
         <a href="#vote">
             <i class="fa-solid fa-angle-down"></i>
         </a>
-    </header>
+    </header> -->
+    <header id="Header"></header>
     <main>
         <div class="comment">
             <img src="https://pawsforcompassion.org/wp-content/uploads/2022/04/logo.png" alt="">
@@ -110,25 +112,15 @@
                 <div class="btn">Bình chọn và Khuyên Góp</div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="wrapper">
-            <p>&copy;2022 Paws For Compassion · Trang web của<a href=""> C: Digital Solutions</a></p>
-            <div class="icon">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin"></i>
+        <div class="message">
+            <div class="contact-messenger">
+                Contact us
             </div>
-        </div>
-    </footer>  
-    <div class="message">
-        <div class="contact-messenger">
-            Contact us
-        </div>
-        <a href="#">
-            <i class="fa-brands fa-facebook-messenger"></i>
-        </a>
-    </div> 
+            <a href="#">
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </a>
+        </div> 
+    </main>
+    <footer id="Footer"></footer>
 </body>
 </html>
